@@ -1,0 +1,23 @@
+--- #YAML:1.0
+name:                Task-CPANAuthors-STRO
+version:             2009.0521
+abstract:            "Task" for installing modules maintained by STRO
+license:             perl
+author:              
+    - Serguei Trouchelle <stro@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.4401
+distribution_type:   module
+requires:     
+    Data::Define:                  1.03
+    FindBin::Real:                 1.05
+    FTN::Address:                  1.03
+    FTN::Nodelist:                 1.07
+    Lingua::Cyrillic::Translit::ICAO: 1.04
+    Lingua::Multinational::Translit::ICAO: 1.04
+    Lingua::RU::Jcuken:            1.04
+    Lingua::UK::Jcuken:            1.04
+    Prompt::Timeout:               1.01
+    Text::Compare:                 1.03
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
