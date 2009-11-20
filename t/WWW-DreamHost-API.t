@@ -1,12 +1,12 @@
 #!/usr/bin/env perl -w
 
-# $Id: FindBin-Real.t 11 2009-11-20 13:39:02Z stro $
+# $Id: WWW-DreamHost-API.t 11 2009-11-20 13:39:02Z stro $
 
 use strict;
 use warnings;
 
 my @modules = qw/
-    FindBin::Real
+    WWW::DreamHost::API
 /;
 
 ## no critic (ProhibitStringyEval,RequireCheckingReturnValueOfEval)

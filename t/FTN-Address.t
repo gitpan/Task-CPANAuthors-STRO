@@ -1,5 +1,7 @@
 #!/usr/bin/env perl -w
 
+# $Id: FTN-Address.t 11 2009-11-20 13:39:02Z stro $
+
 use strict;
 use warnings;
 

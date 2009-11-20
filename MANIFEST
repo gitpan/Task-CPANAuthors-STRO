@@ -14,5 +14,6 @@ t/Lingua-UK-Jcuken.t
 t/Prompt-Timeout.t
 t/Text-Compare.t
 t/Win32-Uptime.t
+t/WWW-DreamHost-API.t
 t/_tpod.t
 t/_tpodc.t

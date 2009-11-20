@@ -27,6 +27,8 @@ CONTENTS
 
     Win32::Uptime
 
+    WWW::DreamHost::API
+
 DESCRIPTION
     Task:: of modules I maintain.
 

@@ -1,6 +1,8 @@
 use strict;
 use warnings;
 
+# $Id: Makefile.PL 11 2009-11-20 13:39:02Z stro $
+
 use ExtUtils::MakeMaker;
 
 my %prereq_list = qw/
@@ -8,12 +10,13 @@ my %prereq_list = qw/
     FindBin::Real                           1.05
     FTN::Address                            1.03
     FTN::Nodelist                           1.07
-    Lingua::Cyrillic::Translit::ICAO        1.04
-    Lingua::Multinational::Translit::ICAO   1.04
+    Lingua::Cyrillic::Translit::ICAO        1.05
+    Lingua::Multinational::Translit::ICAO   1.05
     Lingua::RU::Jcuken                      1.04
     Lingua::UK::Jcuken                      1.04
-    Prompt::Timeout                         1.01
+    Prompt::Timeout                         1.02
     Text::Compare                           1.03
+    WWW::DreamHost::API                     1.00
 /;
 
 $prereq_list{'Win32::Uptime'} = '1.01' if $^O eq 'MSWin32';

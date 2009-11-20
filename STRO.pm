@@ -1,9 +1,11 @@
 package Task::CPANAuthors::STRO;
 
+# $Id: STRO.pm 11 2009-11-20 13:39:02Z stro $
+
 use strict;
 use warnings;
 
-our $VERSION = '2009.0521';
+our $VERSION = '2009.1120';
 
 1;
 
@@ -38,6 +40,8 @@ Prompt::Timeout
 Text::Compare
 
 Win32::Uptime
+
+WWW::DreamHost::API
 
 =head1 DESCRIPTION
 
