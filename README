@@ -5,6 +5,10 @@ SYNOPSIS
      perl -MCPAN -e 'install Task::CPANAuthors::STRO'
 
 CONTENTS
+    CGI-Application-Plugin-DevPopup-Params
+
+    CGI-Application-Plugin-DevPopup-Query
+
     Data::Define
 
     FindBin::Real
